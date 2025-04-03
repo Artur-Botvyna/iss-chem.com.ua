@@ -5,3 +5,17 @@ header { background: #1a1f2b; padding: 15px 10%; display: flex; justify-content:
 nav a { color: #fff; margin-left: 15px; text-decoration: none; font-size: 14px; }
 main { padding: 40px 10%; }
 footer { background: #1a1f2b; text-align: center; padding: 20px; font-size: 14px; margin-top: 60px; }
+.language-switch {
+  position: absolute;
+  top: 15px;
+  right: 10%;
+}
+.language-switch a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+.language-switch a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
